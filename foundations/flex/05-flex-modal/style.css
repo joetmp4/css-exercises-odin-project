@@ -75,5 +75,15 @@ button.cancel {
 }
 
 .content{
+  display: flex;
+  flex-direction: column;
+}
+
+.top-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons{
   
 }
