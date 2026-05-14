@@ -49,7 +49,7 @@ ul {
 
 .header{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 12px;
 }
@@ -58,9 +58,13 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
   gap: 8px;
 }
 
-.logo, .links{
-  
+.left, .right{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
